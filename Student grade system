@@ -1,0 +1,19 @@
+#include <stdio.h>
+void main()
+{
+int result;
+printf("Enter the total marks of a student:\n");
+scanf("%d",&result);
+if (result < 40)
+printf("Grade F\n");
+else if (result < 55)
+printf("Grade D\n");
+else if (result < 70)
+printf("Grade C\n");
+else if (result < 85)
+printf("Grade B\n");
+else if (result <= 100)
+printf("Grade A\n");
+else
+printf("Enter a valid mark");
+}
